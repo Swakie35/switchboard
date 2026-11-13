@@ -1,0 +1,3 @@
+GitHub name: switchboard
+Description: Step-bounded, read-only agent runtime with validated tools, evidence traces, FastAPI and optional LLM function calling.
+Topics: python,agentic-ai,tool-calling,fastapi,genai

@@ -1,5 +1,7 @@
 # Switchboard
 
+[![CI](https://github.com/Swakie35/switchboard/actions/workflows/ci.yml/badge.svg)](https://github.com/Swakie35/switchboard/actions/workflows/ci.yml)
+
 **A small, inspectable agent runtime where tools are allowlisted, requests have a step budget and evidence remains visible.**
 
 A tool-calling demo is much more convincing to me when the model cannot quietly invent an API, modify records, or loop indefinitely. Switchboard is an operations analyst over invented stock, sales and policy fixtures. It has two ways to run: a deterministic offline planner for testing, and an **optional real OpenAI function-calling adapter**. Both go through the same read-only tool registry and bounded execution loop.
